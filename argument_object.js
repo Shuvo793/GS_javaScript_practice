@@ -17,7 +17,8 @@ function mySelf(name1,name2){
     console.log(l); */
 
     //function details and output document.write() kore browser ee dakhte hobe
-    /* console.log(arguments.callee); */
+    //(callee) aita browser ee apnar full code ta dakha jabe.. bt tate obossoi (document.write) browser ee dakhar jonno
+    console.log(arguments.callee);
     
 
 
