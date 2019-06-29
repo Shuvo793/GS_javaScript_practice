@@ -39,3 +39,4 @@ console.log("samsung "+samsung.name+" "+samsung.price());
 
 var nokia = mobile('3310');
 console.log("nokia "+nokia.name+" "+nokia.price());
+
