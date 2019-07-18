@@ -9,5 +9,4 @@ var Mobile = function(model_no,sprice){
         return ('whool seel price '+this.price+' , selling price '+this.sp);
     }
 }
-
 var samsung = new Mobile('j2',20000);
