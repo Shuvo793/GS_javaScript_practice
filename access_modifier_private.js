@@ -10,3 +10,4 @@ var Mobile = function(model_no,sprice){
     }
 }
 var samsung = new Mobile('j2',20000);
+
