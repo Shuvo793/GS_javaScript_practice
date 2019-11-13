@@ -1,1 +1,0 @@
-vdo-85 =>geeky shows .prototype object
