@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input from user in array</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+    //define array input
+    let elm = prompt('Enter no of element');
+    let arr = [];
+    //input data from user
+    for (let i=0;i<=elm;i++){
+        arr[i]= prompt('Enter value ');
+    }
+    //display
+    for (let value of arr){
+        document.write(value+"<br>");
+    }
+
+
+
+</script>
+
+</body>
+</html>
