@@ -1,13 +1,15 @@
-function Mobile(name){
-    this.model = name;
-    this.ram = '2 GB';
-    this.version = 'lolipop'
-    this.price = function(){
-        console.log('BDT 20000');
-    } 
+function Mobile(model_no){
+    this.model = model_no,
+    this.ram = '4 GB',
+    this.storage = '64 gb',
+    this.price = function (){
+        console.log('30000 tk');
+    }
 }
+var samsung = new Mobile('galay j2 pro');
+console.log(samsung.model);
+console.log(Object.keys(samsung));
 
-var nokia = new Mobile('Nokia');
 
 
 //way 1

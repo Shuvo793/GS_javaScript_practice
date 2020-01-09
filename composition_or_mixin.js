@@ -13,7 +13,7 @@ var talking = {
         return 'I am now talking';
     }
 };
-/*
+
 // for roboCop
 var starting={
     start:function(){
@@ -31,13 +31,13 @@ var roboCop=Object.assign({},walking,talking,starting); //starting only value fo
         // line 16 new object literal create :)
             console.log(roboCop.start());
     
- */
+
 
  
 // human dynamic
-var Human = function(){
+/* var Human = function(){
 
-}
+} */
 /*     
     Object.assign(Human.prototype,walking,talking,eating);
     var Rahul = new Human();
@@ -46,9 +46,9 @@ var Human = function(){
     console.log(karim.walk()); 
 */
     //object.assign dynamic
-function mixin(target,...source){ //rest paramitter
+/* function mixin(target,...source){ //rest paramitter
     Object.assign(target,...source); //sprit operator
 }
 mixin(Human.prototype,walking,talking,eating);
 var suvo = new Human();
-console.log(suvo.eat());
+console.log(suvo.eat()); */

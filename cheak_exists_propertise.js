@@ -1,10 +1,3 @@
-
-function Mango(name){
-    this.nameOfMango = name;
-    console.log(this.nameOfMango);
-}
-var rupali = new Mango('rupali');
-
 // theory 1
 
 
@@ -30,3 +23,30 @@ var rupali = new Mango('rupali');
 }else{
     console.log('not available');
 } */
+
+
+function Mobile(model_no){
+
+    this.model=model_no,
+    this.price=function(){
+        console.log('this is my '+model_no+' phone and my phone price is 10000');
+    }
+
+}
+
+var samsung = new Mobile('galaxy j2 pro');
+samsung.price();
+var lava= new Mobile('rm  mini');
+console.log(l);
+lava.price();
+
+
+
+if (samsung.hasOwnProperty('model')){
+    console.log('Available');
+}else{
+    console.log("dosn't exists");
+
+}
+
+
