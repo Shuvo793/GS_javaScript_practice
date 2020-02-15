@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javaScript">
+
+
+//There are 5 movie tickets eash rs. 200 and if you buy 5 tickets get discount rs. 50 each
+//There are 5 movie tickets eash rs. 200 and if you buy  less than 5 tickets get discount rs. 0 each
+
+
+let movieTickets = 5;
+let buyTickets = 200;
+let discountTickets=50;
+let movie=5;
+
+function tickets(str,mVi,bTickets,mTickets,dTickets){
+  if(movieTickets<5){
+    dTickets=0;
+    return `${str[0]} ${mVi} ${str[1]} ${bTickets} ${str[2]} ${movieTickets} ${str[3]} ${dTickets} ${str[4]}`;
+  }else{
+    return `${str[0]} ${mVi} ${str[1]} ${bTickets} ${str[2]} ${movieTickets} ${str[3]} ${dTickets} ${str[4]}`;
+  }
+  
+}
+document.write(tickets`There are ${movie} movie tickets each rs. ${buyTickets} and if you buy ${movieTickets} tickets get discount rs. ${discountTickets} each <br>`);
+
+//use rest parametter
+function tickets(str,...rest){
+  if(movieTickets<5){
+    rest[3]=0;
+    return `${str[0]} ${rest[0]} ${str[1]} ${rest[1]} ${str[2]} ${rest[2]} ${str[3]} ${rest[3]} ${str[4]}`;
+  }else{
+    return `${str[0]} ${rest[0]} ${str[1]} ${rest[1]} ${str[2]} ${rest[2]} ${str[3]} ${rest[3]} ${str[4]}`;
+  }
+  
+}
+document.write(tickets`There are ${movie} movie tickets each rs. ${buyTickets} and if you buy ${movieTickets} tickets get discount rs. ${discountTickets} each`);
+  </script>
+</body>
+</html>

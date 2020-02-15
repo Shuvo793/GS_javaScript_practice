@@ -34,9 +34,9 @@ function Mobile(model_no){
 
 }
 
-var samsung = new Mobile('galaxy j2 pro');
+let samsung = new Mobile('galaxy j2 pro');
 samsung.price();
-var lava= new Mobile('rm  mini');
+let lava= new Mobile('rm  mini');
 console.log(l);
 lava.price();
 

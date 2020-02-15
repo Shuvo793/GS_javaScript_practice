@@ -1,6 +1,6 @@
 //rest_parametter
 function rest(a,...args){
-    console.log(a)
+    console.log(a);
     console.log(args);
 }
 rest(10,20,30,40);
@@ -11,7 +11,7 @@ rest(10,20,30,40);
 
 //arguments_object
 function arguments(a){
-    console.log(a)
+    console.log(a);
     console.log(arguments);
 }
 arguments(10,20,30,40);

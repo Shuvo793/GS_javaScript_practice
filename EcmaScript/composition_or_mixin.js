@@ -1,6 +1,6 @@
 var eating = {
     eat:function(){
-        return 'I am now eathing';
+        return 'I am now eating';
     }
 };
 var walking = {
@@ -19,7 +19,7 @@ var starting={
     start:function(){
         return "I am now stating";
     }
-}
+};
 var human = Object.assign({},eating,walking,talking);
     console.log(human.eat());
     console.log(human.talk());
